@@ -11,7 +11,7 @@ namespace tpSerialisation
             gestion.AjouterJeu(new JeuVideo("Mario Kart 8 Deluxe", "Nintendo", 59.99));
             gestion.AjouterJeu(new JeuVideo("The Witcher 3", "CD Projekt", 39.99));
 
-            Console.WriteLine("=== Liste initiale ===");
+            Console.WriteLine("Liste initiale");
             gestion.AfficherListe();
 
             const string cheminCsv = "jeux.csv";
@@ -26,19 +26,19 @@ namespace tpSerialisation
 
             var gestionCsv = new GestionJeux();
             gestionCsv.ChargerCsv(cheminCsv);
-            Console.WriteLine("=== Liste chargée depuis CSV ===");
+            Console.WriteLine("Liste chargée depuis CSV");
             gestionCsv.AfficherListe();
 
             Console.WriteLine();
             var gestionXml = new GestionJeux();
             gestionXml.ChargerXml(cheminXml);
-            Console.WriteLine("=== Liste chargée depuis XML ===");
+            Console.WriteLine("Liste chargée depuis XML");
             gestionXml.AfficherListe();
 
             Console.WriteLine();
             var gestionJson = new GestionJeux();
             gestionJson.ChargerJson(cheminJson);
-            Console.WriteLine("=== Liste chargée depuis JSON ===");
+            Console.WriteLine("Liste chargée depuis JSON");
             gestionJson.AfficherListe();
 
             Console.WriteLine();
