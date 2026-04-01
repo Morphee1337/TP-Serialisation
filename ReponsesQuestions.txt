@@ -1,0 +1,22 @@
+1. Quel est le rôle de la sérialisation ?
+La sérialisation transforme des objets en un format qui peut être stocké dans un fichier ou transmis, comme du CSV, XML ou JSON.
+
+2. Quel est le rôle de la désérialisation ?
+La désérialisation reconstruit des objets à partir des données stockées, en lisant un fichier et en recréant les instances de classes en mémoire.
+
+3. Pourquoi faut-il un constructeur vide pour XML ?
+Le sérialiseur XML a besoin d'instancier d'abord un objet vide puis de lui assigner les valeurs des propriétés. Sans constructeur vide public, la désérialisation échoue.
+
+4. Pourquoi utilise-t-on une classe de gestion ?
+Une classe de gestion centralise les opérations sur la collection de jeux : ajout, suppression, affichage, sauvegarde et chargement. Cela rend le code plus organisé et plus facile à maintenir.
+
+5. Quel est l’intérêt du CSV ?
+Le CSV est simple et facile à lire pour les humains et les tableurs. Il est léger et bien adapté aux listes de données tabulaires sans structure complexe.
+
+6. Quel format te semble le plus pratique entre CSV, JSON et XML ? Pourquoi ?
+JSON est le plus pratique pour ce projet car il est à la fois lisible, compact et facile à manipuler avec les bibliothèques modernes. Il supporte bien les structures de données et s'intègre facilement avec les applications web.
+
+Bonus
+- Méthode pour calculer le prix moyen : incluse dans la classe GestionJeux avec CalculerPrixMoyen().
+- Méthode pour afficher le jeu le plus cher : incluse avec AfficherJeuLePlusCher().
+- Méthode pour rechercher par titre : incluse avec RechercherParTitre(titre).

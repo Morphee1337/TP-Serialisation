@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GestionJeux xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Jeux>
+    <Jeu>
+      <Titre>Minecraft</Titre>
+      <Studio>Mojang</Studio>
+      <Prix>29.99</Prix>
+    </Jeu>
+    <Jeu>
+      <Titre>Mario Kart 8 Deluxe</Titre>
+      <Studio>Nintendo</Studio>
+      <Prix>59.99</Prix>
+    </Jeu>
+    <Jeu>
+      <Titre>The Witcher 3</Titre>
+      <Studio>CD Projekt</Studio>
+      <Prix>39.99</Prix>
+    </Jeu>
+  </Jeux>
+</GestionJeux>

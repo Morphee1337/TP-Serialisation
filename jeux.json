@@ -1,0 +1,17 @@
+[
+  {
+    "Titre": "Minecraft",
+    "Studio": "Mojang",
+    "Prix": 29.99
+  },
+  {
+    "Titre": "Mario Kart 8 Deluxe",
+    "Studio": "Nintendo",
+    "Prix": 59.99
+  },
+  {
+    "Titre": "The Witcher 3",
+    "Studio": "CD Projekt",
+    "Prix": 39.99
+  }
+]
